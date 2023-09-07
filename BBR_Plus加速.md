@@ -4,9 +4,16 @@ __大佬都在用的VPS神级一键脚本 内核版本在提升 TCP性能调优�
 
 一键脚本
 apt update -y && apt install -y wget sudo
+
+
 wget --no-check-certificate -O tcpx.sh https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcpx.sh
+
+
 chmod +x tcpx.sh
+
+
 ./tcpx.sh
+
 
 以后运行
 ./tcpx.sh
