@@ -1,0 +1,10 @@
+启用root账户开启密码登陆用到的命令：
+切换到root用户：sudo -i
+编辑配置文件：vim /etc/ssh/sshd_config
+输入a 开始编辑
+ 修改参数：PermitRootLogin
+ 修改参数：PasswordAuthentication
+修改好后输入 :wq 退出编辑
+ 
+修改密码：passwd
+重启ssh服务：systemctl  restart  ssh
