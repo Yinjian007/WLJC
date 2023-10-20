@@ -1,0 +1,12 @@
+# 配置socks5代理
+bash <(curl -fsSLk https://raw.githubusercontent.com/bulianglin/demo/main/xrayL.sh) socks
+# 配置vmess+ws代理
+bash <(curl -fsSLk https://raw.githubusercontent.com/bulianglin/demo/main/xrayL.sh) vmess
+
+检测节点落地IP：https://limit.888005.xyz
+免费IPv6隧道：https://www.tunnelbroker.net
+
+
+
+批量生成指令地址：
+https://www.bulianglin.com/archives/ipv6.html
