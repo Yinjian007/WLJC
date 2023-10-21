@@ -1,0 +1,8 @@
+梭哈脚本
+curl https://www.baipiao.eu.org/suoha.sh -o suoha.sh && bash suoha.sh
+
+CF-CDN优选域名一键脚本
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.sh && chmod +x CFcdnym.sh && bash CFcdnym.sh
+
+CF-优选反代IP一键脚本
+curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh -o cfip.sh && chmod +x cfip.sh && bash cfip.sh
