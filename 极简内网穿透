@@ -1,0 +1,26 @@
+
+客户端官网下载
+https://tailscale.com
+
+服务器设置
+
+安装命令
+curl -fsSL https://tailscale.com/install.sh | sh
+
+
+定义安装源并签名
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+
+安装
+sudo apt-get update
+sudo apt-get install tailscale
+
+开启
+sudo tailscale up
+
+查看ipv4地址
+tailscale ip -4
+
+
+客户端直接登录即可
