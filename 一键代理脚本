@@ -1,8 +1,46 @@
+ss脚本
+git clone -b master https://github.com/flyzy2005/ss-fly
+ss-fly/ss-fly.sh -i passwd 1024
+
+
+
 梭哈脚本
 curl https://www.baipiao.eu.org/suoha.sh -o suoha.sh && bash suoha.sh
+
+warp脚本
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh
+
 
 CF-CDN优选域名一键脚本
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh -o CFcdnym.sh && chmod +x CFcdnym.sh && bash CFcdnym.sh
 
 CF-优选反代IP一键脚本
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh -o cfip.sh && chmod +x cfip.sh && bash cfip.sh
+
+hyteria2一键脚本
+curl -sSL https://github.com/seagullz4/hysteria2/raw/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
+
+wget -N https://gitlab.com/rwkgyg/hysteria-yg/raw/main/hysteria.sh && bash hysteria.sh
+
+
+
+x-ui一键脚本
+bash <(curl -Ls https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh)
+
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+
+kejilion脚本综合
+curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh
+
+tailscale内网穿透
+curl -fsSL https://tailscale.com/install.sh | sh
+
+Oracle保活脚本
+bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/Oracle-server-keep-alive-script/-/raw/main/oalive.sh)
+
+手动申请证书
+curl https://get.acme.sh | sh
+
+curl https://gitee.com/neilpang/acme.sh | sh
