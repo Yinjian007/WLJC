@@ -22,7 +22,8 @@ curl -sSL https://github.com/seagullz4/hysteria2/raw/main/install.sh -o install.
 
 wget -N https://gitlab.com/rwkgyg/hysteria-yg/raw/main/hysteria.sh && bash hysteria.sh
 
-
+一键hy+reality+vmess
+bash <(curl -fsSL https://github.com/liuoqu444/sing-box-reality-hysteria2/raw/main/reality_hy2_ws.sh)
 
 x-ui一键脚本
 bash <(curl -Ls https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh)
