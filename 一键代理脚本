@@ -33,15 +33,19 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) 
 
 kejilion脚本综合
-curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh
+curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh 
 
-Hiddify 一键脚本
+Hiddify 一键配置脚本
 echo root:12345678 |sudo chpasswd root   #红色部分替换成自己的密码
-sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config 
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config 
 sudo reboot
 
+Hiddify 一键安装脚本
 sudo apt update&&sudo apt install -y curl&& sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/hiddify/hiddify-config/main/common/download_install.sh)" 
+
+Hiddify 一键更新脚本
+cd /opt/hiddify-config && sudo bash update.sh
 
 tailscale内网穿透
 curl -fsSL https://tailscale.com/install.sh | sh
