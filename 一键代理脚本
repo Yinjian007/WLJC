@@ -38,8 +38,8 @@ kejilion脚本综合
 curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh  
 
 Hiddify 一键配置脚本
-echo root:12345678 |sudo chpasswd root   #红色部分替换成自己的密码
-sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config 
+echo root:12345678 |sudo chpasswd root   #数字部分替换成自己的密码
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config  
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config 
 sudo reboot
 
